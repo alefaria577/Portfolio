@@ -6,6 +6,8 @@ body {
     flex-direction: column;
     align-items: center; /* Centraliza o conteúdo horizontalmente */
     background-color: #f0f0f0;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -47,14 +49,24 @@ body {
 }
 
 ul {
-    list-style-type: none; /* Remove os marcadores das listas */
+    list-style-type: none;     /* Remove os marcadores das listas */
     padding: 0;
-    margin: 0;
-    width: 100%; /* Faz com que as listas ocupem toda a largura disponível */
-    max-width: 600px; /* Define a largura máxima das listas */
+    margin: 0 auto;            /* Centraliza horizontalmente */
+    width: auto;               /* Faz a largura se ajustar ao conteúdo */
+    text-align: center;        /* Centraliza o texto dentro das listas */
+    max-width: 600px;          /* Define a largura máxima das listas */
 }
 
 li {
-    margin-bottom: 10px; /* Adiciona espaçamento entre os itens */
+    margin-bottom: 30px;       /* Adiciona espaçamento entre os itens */
+    text-align: center;        /* Centraliza o texto dentro dos itens */
+    display: inline-block;     /* Faz com que os itens fiquem no centro */
+    width: 100%;               /* Garante que o conteúdo ocupe toda a linha */
 }
 
+.conteúdo{
+    display: inline-block;    /* Faz a div se ajustar ao conteúdo */
+    text-align: center;       /* Centraliza o texto dentro da div */
+    max-width: 600px;         /* Largura máxima da div */
+    padding: 20px;            /* Espaçamento interno opcional */
+}
