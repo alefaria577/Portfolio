@@ -15,8 +15,8 @@ header {
     display: flex;
     align-items: center; 
     justify-content: center;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     min-height: 80px;
 }
 
@@ -25,12 +25,13 @@ main {
 }
 
 footer {
-    background-color: black;
-    color: white;
+
     min-height: 50px;
     display: flex;
     justify-content: center;
 }
+
+
 
 .header_link {
     color: black;
@@ -44,7 +45,7 @@ footer {
 }
 
 .header_link:hover {
-    background-color: black;
+    background-color: rgb(231, 0, 0);
     color: white;
     text-decoration: none;
     border-radius: 20px;
@@ -56,6 +57,7 @@ footer {
 
 .nome{
     margin-top: 20px;
+    padding: 20px;
 }
 
 .links {
@@ -78,6 +80,7 @@ footer {
 table {
     width: 600px;
     height: 100px;
+    margin-bottom: 6vh;;
 }
 
 caption {
